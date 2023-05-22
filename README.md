@@ -6,10 +6,6 @@ SELARU can be used to depict existing or other hypothetical energy and land syst
 
 The main feature of SELARU is its capability to address economies of scale that occur from geographical expansion of energy and land system infrastructures. This allows a more accurate depiction of long term infrastructure sitting/deployment decisions in a highly complex and geographically diverse environment. For its initial application, SELARU is utilized to investigate various case studies for Indonesia.
 
-Version 1.0 is SELARU modelling framework applied in a case study to demonstrate the impact of spatially explicit representation for energy system optimization, particularly in depicting incremental grid expansion and its contribution to accumulation of economies of scale. The case study focuses on the electricity sector of Indonesia to represent a highly complex and geographically diverse energy system. 
-
-The case study demonstrates results from three spatial representations: single-node model (nonspatial), low resolution multi-node model (lowres) and high resolution multi-node model (highres). Detailed information about the spatial representations can be found in [this](https://doi.org/10.31219/osf.io/aw4bd) publication. This repository contains technical documentation, input data, GIS files and corresponding GAMS codes for the case study. 
-
 Preliminary citation:
 
 Yuwono, B., Yowargana, P., Kranzl, L., Haas, R., Dewi, R. G., Siagian, U. W. R., & Kraxner, F. (2023, May 16). Incorporating grid expansion in an energy system optimisation model - A case study for Indonesia. https://doi.org/10.31219/osf.io/aw4bd
