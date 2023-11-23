@@ -1,4 +1,4 @@
-# SELARU modelling framework
+# SELARU
 
 Spatially-explicit Energy and LAnd system InfrastRUcture (SELARU) modelling framework is a high-resolution spatially explicit analytical tool for integrated assessments of energy and land systems using Mixed-Integer Linear Programming approach.
 
