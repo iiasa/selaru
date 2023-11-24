@@ -614,7 +614,7 @@ EQ_eg_cfmin(n,eg,v,y)$[sit_eg(n,eg) and eg_cfmin(eg) and v.val <= y.val]..      
 equation  EQ_egINPUTOUTPUT(n,eg,v,yall)  "Input-output and process efficiency of power generation";
 EQ_egINPUTOUTPUT(n,eg,v,y)$[sit_eg(n,eg) and v.val <= y.val]..   egINMIX(n,eg,v,y)*eg_eef(eg)  =e=  egOUT_ely(n,eg,v,y);
 
-*_ CO2 EMISSIONS, CO2 NEUTRAL, CO2 CAPTURE
+*_ CO2 EMISSIONS, CO2 NEUTRAL
 equation  EQ_egCO2ems(n,eg,v,yall)  "CO2 emissions from power generation";
 EQ_egCO2ems(n,eg,v,y)$[sit_eg(n,eg) and eg_firing(eg) and v.val <= y.val]..      egCO2ems(n,eg,v,y)*10**3  =e=  sum{(f)$[eg_fuelmix(eg,f,y)], egFUEL(n,eg,v,f,y)*emsf_CO2(f)}$[eg_firing(eg)];
 equation  EQ_egCO2bio(n,eg,v,yall)  "CO2 neutral from power generation";
